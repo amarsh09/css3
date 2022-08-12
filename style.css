@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2b2922;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 120px 0 120px;
+}
+
+/* ---------------------------------------------------- */
+/* ------------------- NAVBAR ------------------------- */
+/* ---------------------------------------------------- */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 42px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 42px;
+  color: #aba9a1;
+}
+
+.list li {
+  cursor: pointer;
+}
+
+.list li:hover {
+  color: #fff;
+}
+
+.list-group {
+  display: flex;
+  align-items: center;
+  gap: 42px;
+}
+
+.btn {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #a08f36;
+  border: 1px solid #a08f36;
+  background-color: transparent;
+  padding: 15px 27px;
+  border-radius: 10px;
+}
+
+/* ---------------------------------------------------- */
+/* ------------------- HEADING ------------------------- */
+/* ---------------------------------------------------- */
+
+.heading-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 91px;
+}
+
+.title {
+  width: 688px;
+}
+.title-text {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 100px;
+  text-transform: capitalize;
+  color: #f1f0ef;
+}
+
+.description {
+  width: 482px;
+}
+
+.description-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #e7e6e4;
+}
+
+.banner-container {
+  overflow: hidden;
+  margin-top: 80px;
+}
+
+/* ---------------------------------------------------- */
+/* ------------------- CTA ------------------------- */
+/* ---------------------------------------------------- */
+
+.cta {
+  height: 124px;
+  display: flex;
+  justify-content: end;
+}
+
+.left-btn {
+  border: none;
+  background: #39372d;
+  padding: 32px;
+  margin: 0;
+}
+
+.right-btn {
+  border: none;
+  background: #a08f36;
+  padding: 32px;
+  margin: 0;
+}
